@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My page</title>
+    <!-- Load Bootrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <form id="Login">
+      <div class="form-group">
+        <input
+          class="form-control"
+          name="username"
+          id="inputEmail"
+          placeholder="Usuario"
+        />
+      </div>
+
+      <div class="form-group">
+        <input
+          type="password"
+          class="form-control"
+          name="password"
+          id="inputPassword"
+          placeholder="Contrasena"
+        />
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+    <form autocomplete="off" id="formulario">
+      <div class="form-group row">
+        <div class="col-lg-9">
+          <input
+            class="form-control"
+            type="text"
+            value="Nombre"
+            name="nombre"
+          />
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-lg-9">
+          <input
+            class="form-control"
+            type="text"
+            value="Documento de identidad"
+            name="documento"
+          />
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-lg-9">
+          <select id="user_time_zone" class="form-control" size="0" name="sexo">
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-lg-9">
+          <select id="user_eps" class="form-control" size="0" name="eps">
+            <option value="IPS-Udea">IPS-Udea</option>
+            <option value="COOMEVA">COOMEVA</option>
+            <option value="SURA">SURA</option>
+            <option value="CRUZ BLANCA">CRUZ BLANCA</option>
+            <option value="MEDIMAS">MEDIMAS</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-lg-9">
+          <input class="form-control" type="text" value="Edad" name="edad" />
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-lg-9">
+          <input
+            class="form-control"
+            type="text"
+            value="Telefono"
+            name="telefono"
+          />
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <input type="file" id="file" name="file" />
+      </div>
+
+      <div class="form-group row">
+        <div class="col-lg-9" style="color: black;">
+          <button type="submit" class="btn btn-primary" value="Enviar">
+            Login
+          </button>
+        </div>
+      </div>
+    </form>
+    <!-- Load Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Load pooper -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Load Bootstrap script -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Load Axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Load own Script -->
+    <script src="./lib.js"></script>
+    <!-- Load index.js -->
+    <script src="./index.js"></script>
+  </body>
+</html>
